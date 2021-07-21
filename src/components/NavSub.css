@@ -1,0 +1,27 @@
+.sub_nav_item_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.sub_nav_item_container button {
+  all: unset;
+  margin-right: 20px;
+}
+
+.user_img_border {
+  width: 32px;
+  height: 32px;
+  border: 1px solid rgb(239, 239, 240);
+  border-radius: 17px;
+}
+.user_img_border img {
+  width: 98%;
+  height: 98%;
+  border-radius: 17px;
+}
+.search,
+.alert {
+  color: rgb(188, 188, 188);
+}
